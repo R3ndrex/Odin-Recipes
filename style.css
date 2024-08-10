@@ -1,4 +1,5 @@
 body {
+	margin: 50px 123px 123px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	background: linear-gradient(
 		100deg,
@@ -6,19 +7,41 @@ body {
 		rgb(255, 246, 228)
 	);
 }
-h1 {
+.header,
+.header2,
+p {
 	text-align: center;
 }
 img {
 	width: 400px;
 	height: auto;
+	display: block;
+	margin: auto;
 }
 ul li::marker {
 	color: rgb(255, 52, 52);
 }
+li {
+	width: 300px;
+	margin: 8px;
+}
 li::marker {
 	font-style: italic;
 }
-p {
-	font-size: larger;
+p,
+li {
+	font-size: 24px;
+	padding: 8px;
+}
+ul li {
+	display: inline-block;
+	margin: 16px;
+}
+a {
+	margin: 0px 16px;
+}
+nav,
+ul,
+ol {
+	text-align: center;
 }
